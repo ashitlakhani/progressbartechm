@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/title-explain.js Test Title-Explain:  should render component correctly. 1`] = `
+<div>
+  <CardTitle
+    className="text-center fz2em"
+    tag="h5"
+  >
+    Progress Bar
+  </CardTitle>
+  <ul
+    className="list-group list-group-flush"
+  >
+    <li
+      className="list-group-item"
+    >
+      <CardText
+        tag="p"
+      >
+        Choose progressbar via dropdown-list.
+      </CardText>
+    </li>
+    <li
+      className="list-group-item border-bottom"
+    >
+      <CardText
+        tag="p"
+      >
+        Add or minus value via buttons.
+      </CardText>
+    </li>
+  </ul>
+</div>
+`;

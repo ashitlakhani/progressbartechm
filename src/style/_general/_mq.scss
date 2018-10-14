@@ -1,0 +1,35 @@
+@media all and (max-width: 1024px) {
+    .centered-container {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 993px) {
+    .equalspace-flex {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 753px) {
+    .equalspace-flex {
+        justify-content: center;
+        > .btn-outline-info {
+            margin-right: .5rem;
+        }
+    }
+}
+
+@media all and (max-width: 667px) {
+    .equalspace-flex {
+        justify-content: space-between;
+        > .btn-outline-info {
+            margin-right: 0;
+        }
+    }
+}
+
+@media all and (max-width: 576px) {
+    .centered-container {
+        width: 94%;
+    }
+}

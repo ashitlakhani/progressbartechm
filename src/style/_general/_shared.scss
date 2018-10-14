@@ -1,0 +1,47 @@
+.fz2em {
+    font-size: 2em;
+}
+
+.height-3rem {
+    height: 3rem;
+}
+
+.middle-percent {
+    position: relative;
+    top: 2.3rem;
+}
+
+.normal-bdcolor-boxshadow {
+    &:focus {
+        border-color: $normalBd;
+        box-shadow: none;
+    }
+}
+
+.appear-btn {
+    -webkit-appearance: button;
+    -moz-appearance:    button;
+    -ms-appearance:     button;
+    -o-appearance:      button;
+    appearance:         button;
+}
+
+.centered-container {
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.equalspace-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,73 @@
+{
+  "name": "progressbar-test-ashit-lakhani-techm",
+  "version": "1.0.0",
+  "description": "progressbar-techm",
+  "main": "index.js",
+  "scripts": {
+    "local": "webpack-dev-server --mode=development --hot --inline -display-error-details",
+    "build:prod": "webpack --mode=production -display-error-details",
+    "start": "node server",
+    "heroku-postbuild": "npm run build:prod",
+    "test": "jest --config=jest.config.json --watchAll"
+  },
+  "engines": {
+    "node": ">=8.11.1",
+    "npm": ">=6.4.1"
+  },
+  "author": "Ashit Lakhani",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "fastclick": "^1.0.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.2.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "minimatch": "^3.0.4",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "raf": "^3.4.0",
+    "redux-mock-store": "^1.5.3",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "write-file-webpack-plugin": "^4.3.2"
+  },
+  "peerDependencies": {
+    "popper.js": "^1.14.4"
+  }
+}

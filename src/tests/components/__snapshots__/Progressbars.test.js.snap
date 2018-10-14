@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Progressbars Test  should render component correctly. 1`] = `
+<div>
+  <div
+    key="pb10"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      10
+      %
+    </div>
+    <Progress
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={10}
+    />
+  </div>
+  <div
+    key="pb21"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      81
+      %
+    </div>
+    <Progress
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={81}
+    />
+  </div>
+  <div
+    key="pb32"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      42
+      %
+    </div>
+    <Progress
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={42}
+    />
+  </div>
+</div>
+`;
+
+exports[`In components/Progressbars.js Test Progressbar:  should render component correctly. 1`] = `
+<div>
+  <div
+    key="pb10"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      10
+      %
+    </div>
+    <Progress
+      animated={true}
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={10}
+    />
+  </div>
+  <div
+    key="pb21"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      81
+      %
+    </div>
+    <Progress
+      animated={true}
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={81}
+    />
+  </div>
+  <div
+    key="pb32"
+  >
+    <div
+      className="text-center middle-percent"
+    >
+      42
+      %
+    </div>
+    <Progress
+      animated={true}
+      className="height-3rem rounded-0"
+      color="info"
+      max={100}
+      tag="div"
+      value={42}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/Button-list.js Test Button-List:  should redner component correctly. 1`] = `
+<FormGroup
+  tag="div"
+>
+  <Label
+    className="text-brand"
+    for="progressbAs-select"
+    tag="label"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    Add or Minus
+  </Label>
+  <div
+    className="text-center equalspace-flex"
+  >
+    <ButtonsContainer
+      elem={35}
+      hasSelectedPb=""
+      key="35"
+    />
+    <ButtonsContainer
+      elem={40}
+      hasSelectedPb=""
+      key="41"
+    />
+    <ButtonsContainer
+      elem={-30}
+      hasSelectedPb=""
+      key="-28"
+    />
+    <ButtonsContainer
+      elem={-39}
+      hasSelectedPb=""
+      key="-36"
+    />
+  </div>
+</FormGroup>
+`;

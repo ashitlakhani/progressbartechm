@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/spinner.js Test Spinner:  should render spinner correctly. 1`] = `
+<div
+  className="loader-container"
+>
+  <div
+    className="loader"
+  >
+    Loading...
+  </div>
+</div>
+`;

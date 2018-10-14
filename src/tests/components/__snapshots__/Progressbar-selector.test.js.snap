@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Progressbar-selector test  should render prog bar selector 1`] = `
+<FormGroup
+  tag="div"
+>
+  <Label
+    className="text-brand"
+    for="progressbAs-select0"
+    tag="label"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    Select Progressbar
+  </Label>
+  <Input
+    bsSize="lg"
+    className="rounded-0 normal-bdcolor-boxshadow custom-select height-3rem appear-btn"
+    id="progressbAs-select0"
+    name="progressbar-select"
+    onChange={[Function]}
+    type="select"
+  >
+    <ProgOptions
+      key="0"
+      pbId="pb1"
+      val={10}
+    />
+    <ProgOptions
+      key="1"
+      pbId="pb2"
+      val={81}
+    />
+    <ProgOptions
+      key="2"
+      pbId="pb3"
+      val={42}
+    />
+  </Input>
+</FormGroup>
+`;
+
+exports[`In components/Progressbar-selector.js Test Selector:  should choose progressbar. 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "target": Object {
+          "value": "pb1",
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`In components/Progressbar-selector.js Test Selector:  should render Progressbar-selector correctly. 1`] = `
+<FormGroup
+  tag="div"
+>
+  <Label
+    className="text-brand"
+    for="progressbAs-select0"
+    tag="label"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    Select Progressbar
+  </Label>
+  <Input
+    bsSize="lg"
+    className="rounded-0 normal-bdcolor-boxshadow custom-select height-3rem appear-btn"
+    id="progressbAs-select0"
+    name="progressbar-select"
+    onChange={[Function]}
+    type="select"
+  >
+    <option
+      disabled={true}
+      value="default"
+    >
+      Please Select
+    </option>
+    <PbOpts
+      key="0"
+      pbId="pb1"
+      val={10}
+    />
+    <PbOpts
+      key="1"
+      pbId="pb2"
+      val={81}
+    />
+    <PbOpts
+      key="2"
+      pbId="pb3"
+      val={42}
+    />
+  </Input>
+</FormGroup>
+`;

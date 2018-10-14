@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/Progressbar-Opts.js Test DropDown Options:  should render options correctly. 1`] = `<option />`;
+
+exports[`In prog bar Test DropDown Options:  should render  1`] = `undefined`;
+
+exports[`In prog bar opts Test DropDown Options:  should render  1`] = `undefined`;
+
+exports[`In prog bar opts Test DropDown Options:  should render prog bar opts 1`] = `undefined`;

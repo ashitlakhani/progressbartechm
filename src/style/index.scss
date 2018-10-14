@@ -1,0 +1,12 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import "./_general/mixins.scss";
+@import "./_general/variables.scss";
+@import "./compos/loader";
+@import "./_general/shared";
+
+body.basictorso {
+	@include extendFlex($zp);
+	@include fontSmooth();
+}
+
+@import "./_general/mq.scss";

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/index.js Test Index:  should render index component correctly. 1`] = `<RootRoute />`;

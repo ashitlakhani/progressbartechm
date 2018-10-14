@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In components/Button-list.js Test Button-List:  should render component  1`] = `
+<div
+  className="text-center equalspace-flex"
+>
+  <Buttons
+    elem={35}
+    hasSelectedPb=""
+    key="35"
+  />
+  <Buttons
+    elem={40}
+    hasSelectedPb=""
+    key="41"
+  />
+  <Buttons
+    elem={-30}
+    hasSelectedPb=""
+    key="-28"
+  />
+  <Buttons
+    elem={-39}
+    hasSelectedPb=""
+    key="-36"
+  />
+</div>
+`;
