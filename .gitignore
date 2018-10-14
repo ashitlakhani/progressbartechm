@@ -1,9 +1,4 @@
-node_modules
 !.gitkeep
-package-lock.json
 
-.editorconfig
-.DS_Store
-.AppleDouble
-dist/
+
 

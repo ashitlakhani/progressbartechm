@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 7777;
 const env = process.env.NODE_ENV || 'production';
 const app = express();
 const publicPath = path.resolve(__dirname, 'dist/');

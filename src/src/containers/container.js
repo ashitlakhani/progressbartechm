@@ -72,7 +72,7 @@ export class Container extends Component {
                     <div>
                         <Progressbars bars={ this.state.bars } limit={ this.props.limit } />
                     </div>
-                    <div>
+                    <div className="col-6">
                     <ProgressbarSelector bars={ this.state.bars }
                         hasSelectedPb={ this.state.chosenBar }
                         selectPbById={
